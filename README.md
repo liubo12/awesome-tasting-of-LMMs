@@ -62,8 +62,10 @@
 |--------------------------|----------|--------------------|---------------------------------------------------|--------------------------------------------------------|
 | DALLE 2                    | 图片生成 | 文本 -> 图片        | openai发表的，可以通过api接口调用                  | [链接](https://labs.openai.com/)                       |
 | Stable Diffusion         | 图片生成 | 文本 -> 图片        | 下限低但上限高，可以自己训练，prompt写的不好会生成比较差的结果，白种人的生成效果比黄种人的好 | [链接](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
+| StableStudio         | 图片生成 | 文本 -> 图片        | StableStudio 是 Stability AI 的 DreamStudio 的官方开源变体，允许用户创建和编辑生成的图像 | [链接](https://github.com/Stability-AI/StableStudio) |
 | SAM                      | 分割     | 图片 -> 图片        | 效果还行，看起来有prompt的字段，但目前还不支持输入文字，把图片中对应的物体分割出来 | [链接](https://github.com/facebookresearch/segment-anything) |
 | Grounded-Segment-Anything| 分割     | 图片/视频+文本 -> 图片、视频 | 集成了很多模型，可以检测、分割、生成带有图像、文本和音频的输入 | [链接](https://github.com/IDEA-Research/Grounded-Segment-Anything) |
+| DetGPT | 分割     | 图片+文本 -> 图片 | 结合了语言+视觉+推理+定位的功能 | [链接](https://github.com/OptimalScale/DetGPT) |
 | Real-ESRGAN              | 修复     | 图片 -> 图片        | 图像/视频修复，高清图片生成，目前主要针对动漫领域的 | [链接](https://github.com/xinntao/Real-ESRGAN)        |
 | Shap-E                   | 3D生成   | 文本 or 图片 -> 3D | openai出品，根据文本或图像，生成 3D对象            | [链接](https://github.com/openai/shap-e)               |
 | stable-dreamfusion       | 3D生成   | 文本 or 图片 -> 4D | 根据文本或图像，生成 3D对象                        | [链接](https://github.com/ashawkey/stable-dreamfusion) |
@@ -78,6 +80,9 @@
 | LLaVA       | 文本生成   | 文本 + 图片 -> 文本      | 7B,13B      | 提供示例平台，效果还可以                                         | [链接](https://github.com/haotian-liu/LLaVA)                    |
 | BLIP-2      | 常用功能基本都支持了，包括文图检索、VQA、VideoQA、Image Captioning等 | 文本、图片、视频 -> 文本、图片 | 看具体使用模型 | 已经形成了python库，集成了ALBEF, BLIP, CLIP等模型              | [链接](https://github.com/salesforce/LAVIS?ref=blog.salesforceairesearch.com) |
 | OpenFlamingo | 文本生成   | 文本 + 图片 -> 文本      | 9B          | 用于训练大型多模态模型的开源框架，支持支持 LLaMA、OPT、GPT-Neo、GPT-J 和 Pythia 模型 | [链接](https://github.com/mlfoundations/open_flamingo) |
+| MiniGPT-4 | 文本生成   | 文本 + 图片 -> 文本      | 7B          | 用一个projection layer 把冻结的视觉编码器和Vicuna对齐。 | [链接](https://github.com/Vision-CAIR/MiniGPT-4) |
+| mPLUG-Owl | 文本生成   | 文本 + 图片 -> 文本      | 7B          | 达摩院出的，与LLaVA和MiniGPT-4不同，没有冻结基础编码器 | [链接](https://github.com/X-PLUG/mPLUG-Owl) |
+| ImageBind | 特征提取   | 六种模态      |           | 学习跨六种不同模态的联合嵌入，包括：图像、文本、音频、深度（3D）、红外辐射 和 IMU 数据 | [链接](https://github.com/facebookresearch/ImageBind) |
 
 # 计算框架
 
