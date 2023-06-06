@@ -85,6 +85,7 @@
 | MiniGPT-4 | 文本生成   | 文本 + 图片 -> 文本      | 7B          | 用一个projection layer 把冻结的视觉编码器和Vicuna对齐。 | [链接](https://github.com/Vision-CAIR/MiniGPT-4) |
 | mPLUG-Owl | 文本生成   | 文本 + 图片 -> 文本      | 7B          | 达摩院出的，与LLaVA和MiniGPT-4不同，没有冻结基础编码器 | [链接](https://github.com/X-PLUG/mPLUG-Owl) |
 | ImageBind | 特征提取   | 六种模态      |           | 学习跨六种不同模态的联合嵌入，包括：图像、文本、音频、深度（3D）、红外辐射 和 IMU 数据 | [链接](https://github.com/facebookresearch/ImageBind) |
+| VisualGLM-6B | 多模态对话   | 文本 + 图片 -> 文本      |   7.8B        | 支持图像、中文和英文的多模态对话语言模型，语言模型基于 ChatGLM-6B，图像部分通过训练 BLIP2-Qformer 构建起视觉模型与语言模型的桥梁 | [链接]([https://github.com/facebookresearch/ImageBind](https://github.com/THUDM/VisualGLM-6B)) |
 
 # 计算框架
 
