@@ -40,14 +40,6 @@
 | OpenLLaMA               | LLaMA            | 7B，13B       | 是 LLaMA 的公开复制品           | [链接](https://github.com/openlm-research/open_llama)                                             |
 | falcon               | falcon         | 7B，40B       | Falcon 是一个简约的 ASGI/WSGI 框架，用于构建关键任务的 REST API 和微服务，重点关注大规模的可靠性、正确性和性能。                              | [链接](https://github.com/falconry/falcon)                                   |
 
-| 模型名称     | 发布公司     | 链接                                                             | 功能                                 | 使用体验                                                     |
-| ------------ | ------------ | ---------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
-| baichuan      | 百川智能       | [链接]([https://chat.openai.com/](https://github.com/baichuan-inc/baichuan-7B))                                | todo |
-| ChatGLM2-6B   | 清华大学   | [链接]([https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F](https://github.com/THUDM/ChatGLM2-6B)) | 通过文字生成图片                     | 下限很低，第一次用也能生成很好的图片，不过现在不免费了 |
-| DALLE        | openai       | [链接](https://labs.openai.com/)                                | 根据文字生成图片                     | 还可以，就是生成了很多简笔画画风的图片                   |
-| Copilot      | github、openai | [链接](https://docs.github.com/zh/copilot/quickstart)           | 写代码时的好帮手，可以提供整行或整个函数的建议 | 挺好用的，常用功能基本都能编辑对 |
-
-
 **自然语言处理模型：**
 
 可以使用接口推荐ChatGPT，不能使用接口时推荐ChatGLM，两者都可以推荐ChatGPT
