@@ -4,6 +4,8 @@
 
 # 模型
 
+
+
 **产品类：**
 
 基本上都是采用注册->排队等待->试用->购买的流程
@@ -26,6 +28,25 @@
 | MathGPT      | 学而思       | [链接](https://36kr.com/p/2248754889289350)                     | 作为一家教育机构，主要从数学领域出发构建大模型 | 还没发布，持续跟进中                                         |
 | 式说         | 第四范式       |  [链接](http://www.4paradigm.com/product/SageGPT.html)                     | 除了常规功能外，还支持本地部署，可以融合企业内部知识 | 还未体验                                         |	
 | ChatAvatar     | 影眸科技   | [链接](https://hyperhuman.deemos.com/chatavatar) | 系统先通过多轮对话确定prompt，再生成3D | 还可以，3D生成是一个比较难的任务，虽然没有达到预期，但在竞品里还是挺不错的 |
+
+**可商用类：**
+
+包括：可直接商用，有条件商用，申请后可商用
+
+| 模型    | 主模型      | 模型大小  | 简介                                     | 链接                                                        |
+|---------|-------------|-----------|------------------------------------------|------------------------------------------------------------|
+| baichuan-7B | LLaMA 模型设计   | 7B | 在大约 1.2 万亿 tokens 上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096                        | [链接]([https://chat.openai.com/](https://github.com/baichuan-inc/baichuan-7B))                 |
+| ChatGLM2-6B | GLM   | 基于openai的api | 相对第一版，优化了性能，加长了上下文和推理性能 | [链接]([https://github.com/Significant-Gravitas/Auto-GPT](https://github.com/THUDM/ChatGLM2-6B)) |
+| OpenLLaMA               | LLaMA            | 7B，13B       | 是 LLaMA 的公开复制品           | [链接](https://github.com/openlm-research/open_llama)                                             |
+| falcon               | falcon         | 7B，40B       | Falcon 是一个简约的 ASGI/WSGI 框架，用于构建关键任务的 REST API 和微服务，重点关注大规模的可靠性、正确性和性能。                              | [链接](https://github.com/falconry/falcon)                                   |
+
+| 模型名称     | 发布公司     | 链接                                                             | 功能                                 | 使用体验                                                     |
+| ------------ | ------------ | ---------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------ |
+| baichuan      | 百川智能       | [链接]([https://chat.openai.com/](https://github.com/baichuan-inc/baichuan-7B))                                | todo |
+| ChatGLM2-6B   | 清华大学   | [链接]([https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F](https://github.com/THUDM/ChatGLM2-6B)) | 通过文字生成图片                     | 下限很低，第一次用也能生成很好的图片，不过现在不免费了 |
+| DALLE        | openai       | [链接](https://labs.openai.com/)                                | 根据文字生成图片                     | 还可以，就是生成了很多简笔画画风的图片                   |
+| Copilot      | github、openai | [链接](https://docs.github.com/zh/copilot/quickstart)           | 写代码时的好帮手，可以提供整行或整个函数的建议 | 挺好用的，常用功能基本都能编辑对 |
+
 
 **自然语言处理模型：**
 
