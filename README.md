@@ -35,8 +35,8 @@
 
 | 模型    | 主模型      | 模型大小  | 简介                                     | 链接                                                        |
 |---------|-------------|-----------|------------------------------------------|------------------------------------------------------------|
-| baichuan-7B | LLaMA 模型设计   | 7B | 在大约 1.2 万亿 tokens 上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096                        | [链接]([https://chat.openai.com/](https://github.com/baichuan-inc/baichuan-7B))                 |
-| ChatGLM2-6B | GLM   | 基于openai的api | 相对第一版，优化了性能，加长了上下文和推理性能 | [链接]([https://github.com/Significant-Gravitas/Auto-GPT](https://github.com/THUDM/ChatGLM2-6B)) |
+| baichuan-7B | LLaMA 模型设计   | 7B | 在大约 1.2 万亿 tokens 上训练的 70 亿参数模型，支持中英双语，上下文窗口长度为 4096                        | [链接](https://github.com/baichuan-inc/baichuan-7B)                 |
+| ChatGLM2-6B | GLM   | 6B | 相对第一版，优化了性能，加长了上下文和推理性能 | [链接](https://github.com/THUDM/ChatGLM2-6B) |
 | OpenLLaMA               | LLaMA            | 7B，13B       | 是 LLaMA 的公开复制品           | [链接](https://github.com/openlm-research/open_llama)                                             |
 | falcon               | falcon         | 7B，40B       | Falcon 是一个简约的 ASGI/WSGI 框架，用于构建关键任务的 REST API 和微服务，重点关注大规模的可靠性、正确性和性能。                              | [链接](https://github.com/falconry/falcon)                                   |
 
